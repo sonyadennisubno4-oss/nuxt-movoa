@@ -1,0 +1,37 @@
+{
+  "name": "nuxt-movoa",
+  "version": "1.0.0",
+  "description": "Unlimited AI video generator with sound: on paid plans the tenth take of a shot costs what the first did, and your first clip is free to make right now. Official Nuxt module for Movoa.",
+  "type": "module",
+  "exports": {
+    ".": "./src/module.mjs"
+  },
+  "main": "./src/module.mjs",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "nuxt",
+    "nuxt-module",
+    "movoa",
+    "ai-video",
+    "text-to-video",
+    "image-to-video",
+    "video-with-sound"
+  ],
+  "homepage": "https://movoa.ai/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonyadennisubno4-oss/nuxt-movoa.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sonyadennisubno4-oss/nuxt-movoa/issues"
+  },
+  "license": "MIT",
+  "author": "Movoa <support@movoa.ai> (https://movoa.ai/)",
+  "dependencies": {
+    "@nuxt/kit": "^3.13.0 || ^4.0.0"
+  }
+}
